@@ -1,0 +1,284 @@
+state = {
+  products: [
+    {
+      id: 1,
+      name: "Ariostea",
+      type: "Tile",
+      banner: "Ariostea Image",
+      items: [
+        {
+          collection: "Marmi Classici",
+          promo: false,
+          lists: [
+            {
+              id: 1,
+              name: "Bianco Calacatta",
+              kind: "Marble",
+              image: ["image1", "image2"],
+              application: ["Living Room", "Kitchen", "Bath Room"],
+              area: ["Indoor", "Outdoor", "Floor", "Wall"],
+              details: [
+                {
+                  finishes: ["Polish", "Soft"],
+                  sizes: ["120x60", "60x60,", "60x30"],
+                  thickness: "8mm",
+                  color: ["White"],
+                  design: ["Vien Marble", "Marble Effect"],
+                },
+              ],
+            },
+            {
+              id: 2,
+              name: "Bianco Covelano",
+              kind: "Marble",
+              image: ["image1", "image2"],
+              application: ["Living Room", "Kitchen", "Bath Room"],
+              area: ["Indoor", "Outdoor", "Floor", "Wall"],
+              details: [
+                {
+                  finishes: ["Polish", "Soft"],
+                  sizes: ["120x60", "60x60,", "60x30"],
+                  thickness: "8mm",
+                  color: ["White"],
+                  design: ["Vien Marble", "Marble Effect"],
+                },
+              ],
+            },
+            {
+              id: 1,
+              name: "Bianco Calacatta",
+              kind: "Marble",
+              image: ["image1", "image2"],
+              application: ["Living Room", "Kitchen", "Bath Room"],
+              area: ["Indoor", "Outdoor", "Floor", "Wall"],
+              details: [
+                {
+                  finishes: ["Polish", "Soft"],
+                  sizes: ["120x60", "60x60,", "60x30"],
+                  thickness: "8mm",
+                  color: ["White"],
+                  design: ["Vien Marble", "Marble Effect"],
+                },
+              ],
+            },
+            {
+              id: 2,
+              name: "Bianco Covelano",
+              kind: "Marble",
+              image: ["image1", "image2"],
+              application: ["Living Room", "Kitchen", "Bath Room"],
+              area: ["Indoor", "Outdoor", "Floor", "Wall"],
+              details: [
+                {
+                  finishes: ["Polish", "Soft"],
+                  sizes: ["120x60", "60x60,", "60x30"],
+                  thickness: "8mm",
+                  color: ["White"],
+                  design: ["Vien Marble", "Marble Effect"],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          collection: "ULTRA Marmi",
+          promo: false,
+          lists: [
+            {
+              id: 1,
+              name: "ULTRA Bianco",
+              kind: "Marble",
+              image: ["image1", "image2"],
+              application: ["Living Room", "Kitchen", "Bath Room"],
+              area: ["Indoor", "Outdoor", "Floor", "Wall"],
+              details: [
+                {
+                  finishes: ["Polish", "Soft"],
+                  sizes: ["120x60", "60x60,", "60x30"],
+                  thickness: "8mm",
+                  color: ["White"],
+                  design: ["Vien Marble", "Marble Effect"],
+                },
+              ],
+            },
+            {
+              id: 2,
+              name: "ULTRA Covelano",
+              kind: "Marble",
+              image: ["image1", "image2"],
+              application: ["Living Room", "Kitchen", "Bath Room"],
+              area: ["Indoor", "Outdoor", "Floor", "Wall"],
+              details: [
+                {
+                  finishes: ["Polish", "Soft"],
+                  sizes: ["120x60", "60x60,", "60x30"],
+                  thickness: "8mm",
+                  color: ["White"],
+                  design: ["Vien Marble", "Marble Effect"],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "Antolini",
+      type: "Natural Stone",
+      banner: "Antolini Image",
+      items: [
+        {
+          collection: "Exclusive",
+          promo: false,
+          lists: [
+            {
+              id: 3,
+              name: "Patagonia Original",
+              kind: "Natural Quartz",
+              image: ["image1", "image2"],
+              application: ["Living Room", "Bath Room", "Tops", "Accent Wall"],
+              area: ["Indoor", "Floor", "Wall"],
+              details: [
+                {
+                  finishes: ["Polish", "Lether"],
+                  sizes: ["320x120"],
+                  thickness: "20mm",
+                  color: ["White", "Gold", "Yellow Gold"],
+                  design: ["Stone Spot", "Quartz", "Crystal"],
+                },
+              ],
+            },
+            {
+              id: 4,
+              name: "Belvedere",
+              kind: "Natural Quartz",
+              image: ["image1", "image2"],
+              application: ["Living Room", "Bath Room", "Tops", "Accent Wall"],
+              area: ["Indoor", "Floor", "Wall"],
+              details: [
+                {
+                  finishes: ["Polish", "Hydro"],
+                  sizes: ["320x120"],
+                  thickness: "20mm",
+                  color: ["Black"],
+                  design: ["Vein Stone"],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 3,
+      name: "SapienStone",
+      type: "Sintered Stone",
+      banner: "SapienStone Image",
+      items: [
+        {
+          collection: "Exclusive",
+          promo: false,
+          lists: [
+            {
+              id: 5,
+              name: "Sintered Stone Name",
+              kind: "Sintered Stone",
+              image: ["image1", "image2"],
+              application: ["Bath Room", "Tops"],
+              area: ["Indoor"],
+              details: [
+                {
+                  finishes: ["Active", "Matt"],
+                  sizes: ["320x100"],
+                  thickness: "12mm",
+                  color: ["White"],
+                  design: ["Plain Color"],
+                },
+              ],
+            },
+            {
+              id: 6,
+              name: "Sintered Stone Name 2",
+              kind: "Sintered Stone",
+              image: ["image1", "image2"],
+              application: ["Bath Room", "Tops"],
+              area: ["Indoor"],
+              details: [
+                {
+                  finishes: ["Active", "Matt"],
+                  sizes: ["320x100"],
+                  thickness: "12mm",
+                  color: ["White"],
+                  design: ["Plain Color"],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 4,
+      name: "Liston Giordano",
+      type: "Natural Wood",
+      banner: "Listone Giordano Image",
+      items: [
+        {
+          collection: "Classica",
+          promo: false,
+          lists: [
+            {
+              id: 7,
+              name: "Oak Puro",
+              kind: "Wood",
+              image: ["image1", "image2"],
+              application: [
+                "Living Room",
+                "Bed Room",
+                "Library Room",
+                "Entertainment Room",
+                "Gallery",
+              ],
+              area: ["Indoor"],
+              details: [
+                {
+                  finishes: ["NaturPlus2", "MattPlus2"],
+                  sizes: ["210x20"],
+                  thickness: "10mm",
+                  color: ["Brown"],
+                  design: ["Fibramix", "Country"],
+                },
+              ],
+            },
+            {
+              id: 8,
+              name: "Oak Tamarindo",
+              kind: "Wood",
+              image: ["image1", "image2"],
+              application: [
+                "Living Room",
+                "Bed Room",
+                "Library Room",
+                "Entertainment Room",
+                "Gallery",
+              ],
+              area: ["Indoor"],
+              details: [
+                {
+                  finishes: ["NaturPlus2", "MattPlus2"],
+                  sizes: ["210x20"],
+                  thickness: "10mm",
+                  color: ["Brown"],
+                  design: ["Fibramix", "Country"],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  ],
+  compareItem: [],
+  filterType: [],
+};
